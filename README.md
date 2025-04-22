@@ -56,7 +56,14 @@ A full-stack web application designed to streamline the process of pet adoption.
 7. Additionally, pets can also be added directly by admins without user submission, for cases when pets are brought in manually.
 
 ---
+### Role-Based Login Flow
 
+- A single login form is used by both Users and Admins.
+- After login:
+  - **Users** are directed to a pet submission form where they can offer pets for adoption or protection.
+  - **Admins** are directed to the Admin Panel to manage the system (pet approvals, doctor assignments, etc.).
+
+---
 
 ##  User Interfaces
 
