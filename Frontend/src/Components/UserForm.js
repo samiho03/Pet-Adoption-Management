@@ -26,7 +26,7 @@ const UserForm = ({ onLogout }) => {
     contactPhoneNumber: '',
     photo: null,
   });
-//  const navigate = useNavigate();
+
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -39,25 +39,7 @@ const UserForm = ({ onLogout }) => {
       setFormData({ ...formData, photo: URL.createObjectURL(file) });
     }
   };
-
-//   const handleGoBack = () => {
-//     localStorage.removeItem('jwt'); // Assuming you store JWT in localStorage
-//     navigate('/login'); // Navigate to the login page
-// };
   
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(formData);
-  //   fetch("http://localhost:8080/api/v1/pets/add", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/json" },
-  //     body: JSON.stringify(formData),
-  //   }).then(() => {
-  //     console.log("New pet is added");
-  //   });
-  // };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
      // Validate form inputs
