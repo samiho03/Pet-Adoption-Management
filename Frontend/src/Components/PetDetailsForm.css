@@ -9,9 +9,6 @@ body {
   max-width: 1200px;
   margin-left: 20px;
   padding: 20px;
-  /* background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
 }
 
 /* Title styling */
@@ -28,12 +25,12 @@ body {
 .pet-list-table {
   width: 102%;
   border-collapse: separate;
-  border-spacing: 0; /* Ensure border-radius doesn't collapse */
+  border-spacing: 0;
   margin-bottom: 20px;
   margin-top: 40px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  overflow: hidden; /* Ensure the rounded corners are applied */
+  overflow: hidden;
 }
 
 /* Table header */
@@ -46,7 +43,7 @@ body {
 
 /* Set the width of specific columns */
 .pet-list-details-col {
-  width: 15%; /* Increase width of Pet Details column */
+  width: 15%; 
 }
 
 
@@ -55,15 +52,15 @@ body {
 .pet-list-body td {
   padding: 10px;
   border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd; /* Add left border to create column distinction */
+  border-left: 1px solid #ddd; 
 }
 
 .pet-list-body td:first-child {
-  border-left: none; /* Remove left border from the first column */
+  border-left: none; 
 }
 
 .pet-list-body td:last-child {
-  border-right: none; /* Remove right border from the last column */
+  border-right: none;
 }
 .pet-list-row:nth-child(even) {
   background-color: #f3f1e8;
@@ -116,7 +113,6 @@ body {
 
 /* Button Styling */
 .approve-button, .reject-button {
-  /* padding: 5px 10px; */
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -129,7 +125,7 @@ body {
 }
 
 .approve-button i, .reject-button i {
-  margin-right: 8px; /* Add some space between icon and text */
+  margin-right: 8px; 
 }
 
 .approve-button {
@@ -161,7 +157,7 @@ body {
 /* Button container to align buttons in the decision column */
 .button-container {
   display: flex;
-  gap: 10px; /* Space between the buttons */
+  gap: 10px; 
   justify-content: center;
 }
 
